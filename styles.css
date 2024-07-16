@@ -1,0 +1,75 @@
+/* Basic Reset and Body Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif; /* Integrated font-family */
+  line-height: 1.6;
+  padding: 20px; /* Maintained padding from new design */
+  background-color: #f4f4f4;
+  margin: 20px; /* Integrated margin from selection */
+}
+
+/* Form and Inputs */
+#product-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+#product-form input[type="text"],
+#product-form input[type="number"],
+#product-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Button Styles - Integrated */
+button {
+  display: inline-block;
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px; /* Integrated margin from selection */
+}
+
+button:hover {
+  background-color: #449d44;
+}
+
+/* Product List and Product Styles - Integrated and Adjusted */
+#product-list {
+  margin: 20px auto;
+  margin-bottom: 20px; /* Integrated margin-bottom from selection */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Integrated border style from selection */
+  margin-bottom: 10px; /* Integrated margin-bottom from selection */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #product-form, #product-list {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+  

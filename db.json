@@ -1,0 +1,117 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "price": 100,
+        "description": "Description 1",
+        "category_id": 1,
+        "images": [
+          "img/product1-1.jpg",
+          "img/product1-2.jpg"
+        ],
+        "stock": 10,
+        "reviews": [1, 2]
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "price": 200,
+        "description": "Description 2",
+        "category_id": 2,
+        "images": [
+          "img/product2-1.jpg",
+          "img/product2-2.jpg"
+        ],
+        "stock": 5,
+        "reviews": [3]
+      },
+      {
+        "id": 3,
+        "name": "Product 3",
+        "price": 150,
+        "description": "Description for Product 3",
+        "category_id": 1,
+        "images": [
+          "img/product3-1.jpg",
+          "img/product3-2.jpg"
+        ],
+        "stock": 20,
+        "reviews": [4]
+      },
+      {
+        "id": 4,
+        "name": "Product 4",
+        "price": 250,
+        "description": "Description for Product 4",
+        "category_id": 2,
+        "images": [
+          "img/product4-1.jpg",
+          "img/product4-2.jpg"
+        ],
+        "stock": 15,
+        "reviews": [5, 6]
+      }
+    ],
+    "categories": [
+      { "id": 1, "name": "Electronics" },
+      { "id": 2, "name": "Home & Garden" }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "product_id": 1,
+        "user_id": 1,
+        "rating": 5,
+        "comment": "Great product!"
+      },
+      {
+        "id": 2,
+        "product_id": 1,
+        "user_id": 2,
+        "rating": 4,
+        "comment": "Really liked it, but the price is a bit high."
+      },
+      {
+        "id": 3,
+        "product_id": 2,
+        "user_id": 1,
+        "rating": 3,
+        "comment": "Average, not what I expected."
+      },
+      {
+        "id": 4,
+        "product_id": 3,
+        "user_id": 1,
+        "rating": 5,
+        "comment": "Loved Product 3! Highly recommend."
+      },
+      {
+        "id": 5,
+        "product_id": 4,
+        "user_id": 2,
+        "rating": 4,
+        "comment": "Product 4 is good, but could be cheaper."
+      },
+      {
+        "id": 6,
+        "product_id": 4,
+        "user_id": 1,
+        "rating": 3,
+        "comment": "Product 4 is okay, not what I expected though."
+      }
+    ]
+  }
+  
